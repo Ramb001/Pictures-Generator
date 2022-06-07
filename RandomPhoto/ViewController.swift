@@ -41,7 +41,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .systemRed
         view.addSubview(imageView)
-        imageView.frame = CGRect(x: 0, y: 0, width: 350, height: 350)
+        imageView.frame = CGRect(x: 0, y: 0, width: 375, height: 375)
         imageView.center = view.center
         view.addSubview(button)
         view.addSubview(saveButton)
@@ -79,7 +79,7 @@ class ViewController: UIViewController {
     }
     func getRandomPhoto(){
         let urlString =
-            "https://random.imagecdn.app/600/600"
+            "https://picsum.photos/600"
         let url = URL(string: urlString)!
         guard let data = try? Data(contentsOf: url) else {
             return
