@@ -12,10 +12,10 @@
 		386D8218284F934A006D2CE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386D8217284F934A006D2CE2 /* ViewController.swift */; };
 		386D821B284F934A006D2CE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386D8219284F934A006D2CE2 /* Main.storyboard */; };
 		386D821D284F934E006D2CE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 386D821C284F934E006D2CE2 /* Assets.xcassets */; };
-		386D8220284F934E006D2CE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386D821E284F934E006D2CE2 /* LaunchScreen.storyboard */; };
 		386D822B284F934E006D2CE2 /* RandomPhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386D822A284F934E006D2CE2 /* RandomPhotoTests.swift */; };
 		386D8235284F934E006D2CE2 /* RandomPhotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386D8234284F934E006D2CE2 /* RandomPhotoUITests.swift */; };
 		386D8237284F934E006D2CE2 /* RandomPhotoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386D8236284F934E006D2CE2 /* RandomPhotoUITestsLaunchTests.swift */; };
+		3879E4A128501B2E0098EC45 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3879E4A028501B2E0098EC45 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,13 +42,13 @@
 		386D8217284F934A006D2CE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		386D821A284F934A006D2CE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		386D821C284F934E006D2CE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		386D821F284F934E006D2CE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		386D8221284F934E006D2CE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		386D8226284F934E006D2CE2 /* RandomPhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomPhotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		386D822A284F934E006D2CE2 /* RandomPhotoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPhotoTests.swift; sourceTree = "<group>"; };
 		386D8230284F934E006D2CE2 /* RandomPhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomPhotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		386D8234284F934E006D2CE2 /* RandomPhotoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPhotoUITests.swift; sourceTree = "<group>"; };
 		386D8236284F934E006D2CE2 /* RandomPhotoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPhotoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3879E4A028501B2E0098EC45 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "../../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +102,9 @@
 				386D8213284F934A006D2CE2 /* AppDelegate.swift */,
 				386D8215284F934A006D2CE2 /* SceneDelegate.swift */,
 				386D8217284F934A006D2CE2 /* ViewController.swift */,
+				3879E4A028501B2E0098EC45 /* Launch Screen.storyboard */,
 				386D8219284F934A006D2CE2 /* Main.storyboard */,
 				386D821C284F934E006D2CE2 /* Assets.xcassets */,
-				386D821E284F934E006D2CE2 /* LaunchScreen.storyboard */,
 				386D8221284F934E006D2CE2 /* Info.plist */,
 			);
 			path = RandomPhoto;
@@ -231,8 +231,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				386D8220284F934E006D2CE2 /* LaunchScreen.storyboard in Resources */,
 				386D821D284F934E006D2CE2 /* Assets.xcassets in Resources */,
+				3879E4A128501B2E0098EC45 /* Launch Screen.storyboard in Resources */,
 				386D821B284F934A006D2CE2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,14 +303,6 @@
 				386D821A284F934A006D2CE2 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		386D821E284F934E006D2CE2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				386D821F284F934E006D2CE2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -435,6 +427,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -464,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
