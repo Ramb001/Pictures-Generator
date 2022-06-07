@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     private let button: UIButton = {
         let button = UIButton()
         button.backgroundColor = .white
-        button.setTitle("New photo", for: .normal)
+        button.setTitle("Next photo", for: .normal)
         button.setTitleColor(.black, for: .normal)
         return button
     }()
@@ -77,6 +77,7 @@ class ViewController: UIViewController {
         saveButton.layer.cornerRadius = 12
         
     }
+    
     func getRandomPhoto(){
         let urlString =
             "https://picsum.photos/600"
@@ -87,3 +88,4 @@ class ViewController: UIViewController {
         imageView.image = UIImage(data: data)
     }
 }
+
