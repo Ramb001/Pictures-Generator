@@ -51,10 +51,20 @@ class ViewController: UIViewController {
     }
     
     @IBAction func saveImg(_ sender: UIButton) {
-            let alert = UIAlertController(title: "SOON", message: "Feature in development", preferredStyle: UIAlertController.Style.alert)
-            alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
-            self.present(alert, animated: true, completion: nil)
+            UIImageWriteToSavedPhotosAlbum(imageView.image!, self,  #selector(image(_:didFinishSavingWithError:contextInfo:)), nil)
+    }
+    
+    @objc func image(_ image: UIImage, didFinishSavingWithError error: Error?, contextInfo: UnsafeRawPointer) {
+        if let error = error {
+            let ac = UIAlertController(title: "Save error", message: error.localizedDescription, preferredStyle: .alert)
+            ac.addAction(UIAlertAction(title: "OK", style: .default))
+            present(ac, animated: true)
+        } else {
+            let ac = UIAlertController(title: "Saved", message: "Photo saved to gallery!", preferredStyle: .alert)
+            ac.addAction(UIAlertAction(title: "OK", style: .default))
+            present(ac, animated: true)
         }
+    }
     
     @objc func newPhotoTapButton(){
         getRandomPhoto()
@@ -78,6 +88,7 @@ class ViewController: UIViewController {
         
     }
     
+    
     func getRandomPhoto(){
         let urlString =
             "https://picsum.photos/600"
@@ -88,4 +99,3 @@ class ViewController: UIViewController {
         imageView.image = UIImage(data: data)
     }
 }
-
