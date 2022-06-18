@@ -15,7 +15,6 @@
 		386D822B284F934E006D2CE2 /* RandomPhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386D822A284F934E006D2CE2 /* RandomPhotoTests.swift */; };
 		386D8235284F934E006D2CE2 /* RandomPhotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386D8234284F934E006D2CE2 /* RandomPhotoUITests.swift */; };
 		386D8237284F934E006D2CE2 /* RandomPhotoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386D8236284F934E006D2CE2 /* RandomPhotoUITestsLaunchTests.swift */; };
-		3879E4A128501B2E0098EC45 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3879E4A028501B2E0098EC45 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +47,6 @@
 		386D8230284F934E006D2CE2 /* RandomPhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomPhotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		386D8234284F934E006D2CE2 /* RandomPhotoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPhotoUITests.swift; sourceTree = "<group>"; };
 		386D8236284F934E006D2CE2 /* RandomPhotoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPhotoUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		3879E4A028501B2E0098EC45 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "../../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +100,6 @@
 				386D8213284F934A006D2CE2 /* AppDelegate.swift */,
 				386D8215284F934A006D2CE2 /* SceneDelegate.swift */,
 				386D8217284F934A006D2CE2 /* ViewController.swift */,
-				3879E4A028501B2E0098EC45 /* Launch Screen.storyboard */,
 				386D8219284F934A006D2CE2 /* Main.storyboard */,
 				386D821C284F934E006D2CE2 /* Assets.xcassets */,
 				386D8221284F934E006D2CE2 /* Info.plist */,
@@ -232,7 +229,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				386D821D284F934E006D2CE2 /* Assets.xcassets in Resources */,
-				3879E4A128501B2E0098EC45 /* Launch Screen.storyboard in Resources */,
 				386D821B284F934A006D2CE2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
